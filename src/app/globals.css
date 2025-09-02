@@ -1,2 +1,19 @@
+/* src/app/globals.css (או הנתיב שלך) */
 @import "tailwindcss";
-@tailwind utilities;
+
+/* הגדרת טוקני צבעים עם @theme (v4) */
+@theme {
+  --color-primary: #2563EB;
+  --color-primary-light: #3B82F6;
+  --color-primary-dark: #1E40AF;
+  --color-accent: #10B981;
+  --color-background: #0F172A;
+  --color-background-light: #1E293B;
+  --color-text: #F8FAFC;
+  --color-text-muted: #CBD5E1;
+  --color-secondary: #64748B;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+}
+
+/* אם אתה צריך reset או בסיס משלך—תוסיף כאן CSS רגיל */
